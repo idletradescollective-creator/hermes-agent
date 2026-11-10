@@ -18,6 +18,7 @@ from typing import Any, Optional
 # for, which is where the list stops.
 LIVE_GATEWAY_SILENT_MARKERS = frozenset({
     "[SILENT]", "SILENT", "NO_REPLY", "NO REPLY",
+    "PASS", "PASSED",
     "[静默]", "静默", "[沉默]", "沉默",
 })
 
